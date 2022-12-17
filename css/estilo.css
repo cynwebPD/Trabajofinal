@@ -1,0 +1,712 @@
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../font/Gilroy-Light.otf)
+    format(opentype);
+}
+
+@font-face {
+    font-family: GilroyBold;
+    src: url(../font/Gilroy-Bold.ttf)
+    format(opentype);
+}
+
+@font-face {
+    font-family: GilroyBold;
+    src: url(../font/Gilroy-Medium.ttf)
+    format(opentype);
+}
+
+
+
+@font-face {
+    font-family: Empera;
+    src: url(../font/Empera-Regular.ttf)
+    format(truetype);
+}
+
+
+@font-face {
+    font-family: Kensmark;
+    src: url(../font/Kensmark03-Bold.ttf)
+    format(truetype);
+}
+
+
+
+header {
+    background-color: #000000 !important;
+    padding: 5px;
+}
+
+
+body{
+    color: #000000;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+main {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-image: url('../img/fondobody.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    font-family: Gilroy;
+    color: #D98036;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: Kensmark!important;
+    color: #D98036;
+    text-align: left !important;
+}
+
+p {
+    font-family: Gilroy;
+    font-size: medium;
+}
+
+.botonredes a{
+    text-align: center!important;
+    background-color: #78423B;
+    outline: none !important;
+    border: none;
+    color:#f8f9fa;
+    margin-left: 14px;
+    font-size: .8rem;
+    font-family: Gilroy;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botonhome a{
+    background-color: #D98036;
+    border: none !important;
+    color:#000000 !important;
+    margin-right: 20px !important;
+    font-size: 1rem!important;
+    font-family: GilroyBold!important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    text-decoration: none;
+}
+
+
+.botonhome a:hover{
+    background: #502c0e;
+    color: white;
+    opacity: 100% !important;
+}
+
+
+a {
+    color: #f8f9fa !important;
+    font-family: Gilroy;
+    font-size: .7rem;
+}
+
+
+button{
+    background-color: #78423B;
+    outline: none !important;
+    border: none;
+    color:#f8f9fa;
+    margin: 2px;
+    font-size: .8rem;
+    font-family: Gilroy;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+.navbar-toggler{
+    background-color: #D98036 !important;
+}
+
+h2 .aboutitulo{
+    font-family: Kemsmark !important;
+    color: #d98036 !important;
+}
+
+button.reservarhome {
+    background: #d98036;color: 
+    rgb(255,255,255);
+    border-radius: 7px;
+    width: 136.5938px;
+    padding: 7px 12px;
+    margin-right: 20px;
+    font-family: Gilroy;
+}
+
+button.reservarhome:hover {
+    background: #502c0e;
+    color: white;
+}
+
+
+header .navbar {
+    z-index: 1000;
+    font-family:"Gilroy";
+    font-size: 1rem;
+    background-color: black !important;
+}
+
+
+
+.brand-heading {
+    font-size: 2rem;
+    margin-top: 50px !important;
+    margin-right: 20px !important;
+    font-family: Gilroy !important;
+    text-align: right;
+    text-decoration: none;
+}
+
+
+
+.nav-link{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.botonreservar {
+    background-color: #78423B;
+    color: white;
+
+}
+
+.redes {
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+#footerRedes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.redes img {
+    margin: 5px;
+}
+
+.button {
+    color: aqua;
+    border-radius: 10px;
+}
+
+.booktable {
+    background-color: #78423B;
+    color: white;
+    margin: 5px;
+    font-size: 13px;
+    border-radius: 5px;
+    border-bottom-style: none;
+    width: 200px;
+
+}
+
+
+.nav-link:hover {
+    color: coral !important;
+    font-weight: 300;
+}
+    
+.navbar img:hover {
+    opacity: 50%;
+}
+
+.booktable:hover {
+    background-color: coral;
+    color: black;
+}
+
+.intro-text {
+    font-family: Empera;
+    font-size: 5rem !important;
+    color: white !important;
+    text-align: right !important;
+    line-height: 70px !important;
+    margin-top: 40px !important;
+    margin-right: 20px !important;
+    padding-left: 500px;
+}
+
+
+.reserva {
+    background-color: #78423B;
+    color: white;
+    scale: 1.2;
+    font-size: 12px;
+    border-radius: 5px;
+    border-bottom-style: none;
+    align-content: flex-end;
+    width: 100px;}
+
+.about {
+     background-attachment: fixed;
+}
+
+
+#mainAboutContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #332A2A;
+    min-height: 80vh;
+    padding: 2rem;
+    margin-bottom: 78px;
+    margin-top: 0;
+}#rowsection{
+    height: 80vh;
+}#subTitleLine{
+    height: 3px;
+    width: 100%;
+    background-color:#D98036;
+    transform: translateX(-25%);
+    margin-bottom: 2rem;
+}#textAboutContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+@media (max-width:500px) {
+    main {
+        background-image: url('../img/fondoresponsivo.png');    }
+    .home .intro-text{
+        font-size: calc(4.9rem + .25vw) !important;
+        line-height: 70px !important;
+    }
+    .home{
+        width: 100% !important
+    }
+
+}
+
+
+
+
+
+
+main .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    transform: translateY(-10%);
+    height: 100vh;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.aboutitulo {
+    font-family: Kensmark !important;
+    font-size: 3rem !important;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.aboutparrafo {
+    font-family: Gilroy !important;
+    font-size: 1rem !important;
+    color: #f8f9fa !important;
+    text-align: left !important;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column ;
+}
+
+#aboutImg{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+  
+#botonHome {
+    height: 40px !important;
+    bottom: 10;
+    position: sticky;
+}
+
+
+.Drytitulo {
+    font-family: Empera;
+    font-size: 5rem !important;
+    color: white !important;
+    text-align: center!important;
+    line-height: 70px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: #000000 !important;
+}
+
+#goUpButtonAbout{
+    margin: auto;
+    margin-bottom: 0;
+    margin-right: 0;
+}#goUpButtonLugar{
+    background-color: #78423B;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    font-size: calc(1rem + .25vw);
+    text-decoration: none;
+    margin:auto;
+    margin-bottom: 0;
+    margin-left: 0;
+}#lugarSec .col-12{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+
+#dryAged{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url('../img/Dryagedfondo.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+#drySection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #332A2A;
+    min-height: 80vh;
+    padding: 2rem;
+    margin: 78px;
+    margin-top: 0;
+    }#lineDrySection{
+        height: 3px;
+        width: 130%;
+        background-color:#D98036;
+        transform: translateX(-1%);
+        margin-bottom: 2rem;
+    }#textAboutContainer{
+        display: flex;
+        flex-direction: column;
+
+
+}#drySection img{
+    width: 100% ;
+    height: 100% ;
+    object-fit: contain;
+}
+
+#drySection col{
+    height: 100vh;
+}
+
+
+
+#platos{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url('../img/platosfondo.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.auxiliar{
+    height: 80vh;
+}.auxiliar .col-12{
+    height: 50% !important;
+}.auxiliar img{
+        object-fit: cover !important;
+}
+
+#platoSection col{
+    height: 100vh;
+}
+
+#platosSection img{
+    width: 100% ;
+    height: 100% ;
+    object-fit: cover;
+}
+
+#platosSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #332A2A;
+    min-height: 100vh;
+    padding: 2rem;
+    margin: 78px;
+    margin-top: 0;
+}#linePlatosSection{
+    height: 3px;
+    width: 130%;
+    background-color:#D98036;
+    transform: translateX(-1%);
+    margin-bottom: 2rem;
+}
+#ordenarfotos img{
+    width: 100%
+}
+
+
+
+#lugar{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        background-image: url('../img/lugarfondo.png');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    #lugarSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #332A2A;
+        min-height: 80vh;
+        padding: 2rem;
+        margin: 78px;
+        margin-top: 0;
+        }#lineDrySection{
+            height: 3px;
+            width: 130%;
+            background-color:#D98036;
+            transform: translateX(-1%);
+            margin-bottom: 2rem;
+        }#textAboutContainer{
+            display: flex;
+            flex-direction: column;
+        }
+
+            
+#contactoSection{
+    align-items: center;
+    background-color: #332A2A;
+    padding: 10rem;
+    margin: 78px;
+    margin-top: 0;
+}
+
+
+  .formulario {
+    justify-content: space-around;
+  }
+
+
+  div.elem-group {
+    margin: 40px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-size: 1.25em;
+    color: #D98036;
+    font-family: Gilroy;
+
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Gilroy';
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  button {
+    background: D98036;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-style: normal;
+    font-family: 'Gilroy';
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }
+
+
+
+  .contact-clean {
+    background: #270101;
+    padding: 80px 0;
+  }
+  
+  .mb-3{
+    font-family: Gilroy;
+    color: #D98036;
+    border: none;
+  }
+
+  .form-control {
+    background-color: #3d2c2c;
+    color: #f8f9fa;
+    border-color: #D98036;
+  }
+
+  .form-control.is-invalid {
+    border-color: #984704 !important;
+  }
+
+.btn-primary {
+    background-color: #d98036 !important;
+    border: none;
+  }
+
+
+.footercaja {
+   width: 100vw;
+   text-align: center !important;
+   background-color: #000000;
+}
+
+
+footer{
+    align-items: center !important;
+    margin-bottom: -2rem;
+    background-color: #000000;
+    height: 250px;
+  }
+
+
+  .footercaja h1{
+    text-align: center;
+    font-family: GilroyBold;
+    color:#ffffff;
+  }
+  .footercaja p{
+    text-align: center;
+    font-family: Gilroy;
+    color:#ffffff;
+
+  }
+
+  .copyright {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy;
+    size: .8rem;
+    width: 100vw;
+    background-color: #984704;
+    padding: 10px;
+  }
+
+  .copyright p{
+    color: #000000 !important;
+    font-family: Gilroy !important;
+  }
+
+
+.fotolugar {
+    height: 50px !important;
+} 
+
+.logoredes{
+   width: 45px !important;
+   padding: 5px;
+}
+
+.logoredes:hover{
+    opacity:50% !important;
+ }
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
+
+  a:hover{
+    opacity:50% !important;
+    border: none;
+ }
+
+ button:hover {
+    background-color: #270101;
+    border: none;
+ }
+ 
+ .map {
+    width:100vw !important;
+    filter: grayscale();
+    transition: filter .3s;
+ }
+
+ .map:hover {
+    filter: grayscale(0);
+ }
