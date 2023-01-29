@@ -296,8 +296,9 @@ header .navbar {
     main {
         background-image: url('../img/fondoresponsivo.png');    }
     .home .intro-text{
-        font-size: calc(4.9rem + .25vw) !important;
-        line-height: 70px !important;
+        font-size: calc(3.8rem + .20vw) !important;
+        line-height: 60px !important;
+       
     }
     .home{
         width: 100% !important
