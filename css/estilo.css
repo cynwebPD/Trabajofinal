@@ -292,7 +292,7 @@ header .navbar {
 
 
 
-@media (max-width:500px) {
+@media (max-width:440px) {
     main {
         background-image: url('../img/fondoresponsivo.png');    }
     .home .intro-text{
